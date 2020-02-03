@@ -1,0 +1,19 @@
+server:
+  port: 9102
+spring:
+  application:
+    name: spring-config
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: https://github.com/pmath7/spring-cloud
+          search-paths: config-server/config
+          username:
+          password:
+eureka:
+  client:
+    service-url:
+      defuatZone: http://localhost:8761/eureka/
+
