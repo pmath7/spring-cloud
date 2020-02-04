@@ -35,7 +35,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.ConfigClientApplication">
+  <component name="RunManager" selected="Application.SpringZuulApplication">
     <configuration name="ConfigClientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pmath.spring.cloud.config.ConfigClientApplication" />
       <module name="config-client" />
@@ -50,16 +50,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringConfigApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pmath.spring.cloud.config.SpringConfigApplication" />
-      <module name="spring-config" />
+    <configuration name="SpringEurekaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pmath.spring.cloud.eureka.SpringEurekaApplication" />
+      <module name="spring-eureka" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringEurekaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pmath.spring.cloud.eureka.SpringEurekaApplication" />
-      <module name="spring-eureka" />
+    <configuration name="SpringHelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pmath.spring.cloud.hello.SpringHelloApplication" />
+      <module name="service-hello" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -73,18 +73,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.SpringEurekaApplication" />
+      <item itemvalue="Application.ConfigClientApplication" />
+      <item itemvalue="Application.SpringHelloApplication" />
       <item itemvalue="Application.ServiceFeignApplication" />
       <item itemvalue="Application.SpringZuulApplication" />
-      <item itemvalue="Application.SpringConfigApplication" />
-      <item itemvalue="Application.ConfigClientApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConfigClientApplication" />
-        <item itemvalue="Application.SpringConfigApplication" />
-        <item itemvalue="Application.SpringEurekaApplication" />
         <item itemvalue="Application.SpringZuulApplication" />
         <item itemvalue="Application.ServiceFeignApplication" />
+        <item itemvalue="Application.SpringHelloApplication" />
+        <item itemvalue="Application.SpringEurekaApplication" />
+        <item itemvalue="Application.ConfigClientApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -107,9 +107,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="734" y="398" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579568892935">
-      <screen x="0" y="40" width="2560" height="1400" />
+    <state x="274" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580741403212">
+      <screen x="0" y="40" width="1366" height="728" />
     </state>
+    <state x="274" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1366.728@0.40.1366.728" timestamp="1580741403212" />
     <state x="734" y="398" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.2560.1400@0.40.2560.1400" timestamp="1579568892935" />
     <state x="579" y="186" key="#com.intellij.ide.util.MemberChooser" timestamp="1580544284728">
       <screen x="0" y="40" width="1366" height="728" />
@@ -120,25 +121,25 @@
       <screen x="0" y="40" width="2560" height="1400" />
     </state>
     <state x="1030" y="307" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.40.2560.1400@0.40.2560.1400" timestamp="1579586744437" />
-    <state width="1323" height="171" key="GridCell.Tab.0.bottom" timestamp="1580625558242">
+    <state width="1323" height="171" key="GridCell.Tab.0.bottom" timestamp="1580803805472">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="171" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1580625558242" />
+    <state width="1323" height="171" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1580803805472" />
     <state width="2517" height="393" key="GridCell.Tab.0.bottom/0.40.2560.1400@0.40.2560.1400" timestamp="1579591146974" />
-    <state width="1323" height="171" key="GridCell.Tab.0.center" timestamp="1580625558242">
+    <state width="1323" height="171" key="GridCell.Tab.0.center" timestamp="1580803805471">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="171" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1580625558242" />
+    <state width="1323" height="171" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1580803805471" />
     <state width="2517" height="393" key="GridCell.Tab.0.center/0.40.2560.1400@0.40.2560.1400" timestamp="1579591146974" />
-    <state width="1323" height="171" key="GridCell.Tab.0.left" timestamp="1580625558241">
+    <state width="1323" height="171" key="GridCell.Tab.0.left" timestamp="1580803805471">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="171" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1580625558241" />
+    <state width="1323" height="171" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1580803805471" />
     <state width="2517" height="393" key="GridCell.Tab.0.left/0.40.2560.1400@0.40.2560.1400" timestamp="1579591146974" />
-    <state width="1323" height="171" key="GridCell.Tab.0.right" timestamp="1580625558242">
+    <state width="1323" height="171" key="GridCell.Tab.0.right" timestamp="1580803805472">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="171" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1580625558242" />
+    <state width="1323" height="171" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1580803805472" />
     <state width="2517" height="393" key="GridCell.Tab.0.right/0.40.2560.1400@0.40.2560.1400" timestamp="1579591146974" />
     <state x="760" y="318" key="SettingsEditor" timestamp="1579507794371">
       <screen x="0" y="40" width="2560" height="1400" />
@@ -153,10 +154,10 @@
       <screen x="0" y="40" width="2560" height="1400" />
     </state>
     <state x="1080" y="433" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.40.2560.1400@0.40.2560.1400" timestamp="1579499746027" />
-    <state x="684" y="247" width="682" height="483" key="new project wizard" timestamp="1580617600308">
+    <state x="298" y="217" width="682" height="483" key="new project wizard" timestamp="1580788758629">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="684" y="247" width="682" height="483" key="new project wizard/0.40.1366.728@0.40.1366.728" timestamp="1580617600308" />
+    <state x="298" y="217" width="682" height="483" key="new project wizard/0.40.1366.728@0.40.1366.728" timestamp="1580788758629" />
     <state x="697" y="718" key="new project wizard/0.40.2560.1400@0.40.2560.1400" timestamp="1579583395732" />
     <state x="503" y="204" width="672" height="678" key="search.everywhere.popup" timestamp="1580618323810">
       <screen x="0" y="40" width="1366" height="728" />
