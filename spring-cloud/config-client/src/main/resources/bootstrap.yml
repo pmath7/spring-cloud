@@ -10,3 +10,7 @@ spring:
       discovery:
         enabled: true
         service-id: spring-config
+eureka:
+  client:
+    service-url:
+      defaultZone: http://chenchao:chenchao@localhost:8001/eureka/

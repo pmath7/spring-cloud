@@ -1,14 +1,17 @@
 server:
-  port: 8761
+  port: 8001
+spring:
+  application:
+    name: eureka-server
+  security:
+    user:
+      name: chenchao
+      password: chenchao
 eureka:
   instance:
     hostname: localhost
   client:
-    #register-with-eureka: false和fetch-registry: false表示自己是一个eureka server
     register-with-eureka: false
     fetch-registry: false
     service-url:
-      defualt-zone: http://${eureka.instance.hostname}:${server.port}/eureka/
-spring:
-  application:
-    name: eureka-server
+      defaultZone: http://chenchao:chenchao@localhost:8001/eureka/

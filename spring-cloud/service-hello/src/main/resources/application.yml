@@ -3,6 +3,10 @@ server:
 spring:
   application:
     name: service-hello
+  boot:
+    admin:
+      client:
+        url: http://localhost:8769/
   zipkin:
     base-url: http://localhost:9411/
   sleuth:
@@ -11,4 +15,12 @@ spring:
 eureka:
   client:
     service-url:
-      defualtZone: http://localhost:8761/eureka/
+      defaultZone: http://chenchao:chenchao@localhost:8001/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: ALWAYS

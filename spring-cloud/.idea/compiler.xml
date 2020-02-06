@@ -11,9 +11,10 @@
         <module name="service-hello" />
         <module name="spring-hystrix" />
         <module name="spring-zuul" />
-        <module name="service-feign" />
         <module name="service-ribbon" />
         <module name="config-client" />
+        <module name="service-feign" />
+        <module name="spring-admin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -27,6 +28,7 @@
       <module name="service-feign" options="-parameters" />
       <module name="service-hello" options="-parameters" />
       <module name="service-ribbon" options="-parameters" />
+      <module name="spring-admin" options="-parameters" />
       <module name="spring-config" options="-parameters" />
       <module name="spring-eureka" options="-parameters" />
       <module name="spring-hystrix" options="-parameters" />
