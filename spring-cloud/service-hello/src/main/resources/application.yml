@@ -16,6 +16,10 @@ eureka:
   client:
     service-url:
       defaultZone: http://chenchao:chenchao@localhost:8001/eureka/
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+    instance-id: ${spring.application.name}:${server.port}
 management:
   endpoints:
     web:

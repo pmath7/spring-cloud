@@ -11,10 +11,22 @@
   <groupId>com.pmath.spring.cloud</groupId>
   <artifactId>spring-cloud</artifactId>
   <version>1.0-SNAPSHOT</version>
+  <modules>
+    <module>service-hello</module>
+    <module>spring-admin</module>
+    <module>spring-zuul</module>
+    <module>spring-eureka</module>
+    <module>service-feign</module>
+    <module>service-ribbon</module>
+    <module>spring-hystrix</module>
+    <module>spring-config</module>
+    <module>config-client</module>
+  </modules>
   <packaging>pom</packaging>
-
   <name>spring-cloud</name>
   <url>http://maven.apache.org</url>
+
+
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

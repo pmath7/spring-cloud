@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/config-client" />
+    <file type="web" url="file://$PROJECT_DIR$/service-feign" />
+    <file type="web" url="file://$PROJECT_DIR$/service-hello" />
+    <file type="web" url="file://$PROJECT_DIR$/service-ribbon" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-admin" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-config" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-eureka" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-hystrix" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-zuul" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>

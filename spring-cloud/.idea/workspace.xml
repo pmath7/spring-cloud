@@ -27,6 +27,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -52,6 +53,14 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.pmath.spring.cloud.zuul" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.pmath.spring.cloud.jwt.annotation" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.ConfigClientApplication">
     <configuration name="ConfigClientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pmath.spring.cloud.config.ConfigClientApplication" />
@@ -74,34 +83,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringRibbonApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pmath.spring.cloud.ribbon.SpringRibbonApplication" />
-      <module name="service-ribbon" />
+    <configuration name="SpringEurekaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pmath.spring.cloud.eureka.SpringEurekaApplication" />
+      <module name="spring-eureka" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringZuulApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pmath.spring.cloud.zuul.SpringZuulApplication" />
-      <module name="spring-zuul" />
+    <configuration name="SpringHelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pmath.spring.cloud.hello.SpringHelloApplication" />
+      <module name="service-hello" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SpringRibbonApplication" />
-      <item itemvalue="Application.ServiceFeignApplication" />
-      <item itemvalue="Application.SpringZuulApplication" />
       <item itemvalue="Application.SpringConfigApplication" />
       <item itemvalue="Application.ConfigClientApplication" />
+      <item itemvalue="Application.SpringEurekaApplication" />
+      <item itemvalue="Application.SpringHelloApplication" />
+      <item itemvalue="Application.ServiceFeignApplication" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ConfigClientApplication" />
         <item itemvalue="Application.SpringConfigApplication" />
-        <item itemvalue="Application.SpringZuulApplication" />
+        <item itemvalue="Application.SpringEurekaApplication" />
         <item itemvalue="Application.ServiceFeignApplication" />
-        <item itemvalue="Application.SpringRibbonApplication" />
+        <item itemvalue="Application.SpringHelloApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -128,62 +137,74 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="275" y="66" key="#Inspections/0.40.1366.728@0.40.1366.728" timestamp="1580904142803" />
-    <state x="274" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580741403212">
+    <state x="274" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580989473940">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="274" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1366.728@0.40.1366.728" timestamp="1580741403212" />
+    <state x="274" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1366.728@0.40.1366.728" timestamp="1580989473940" />
     <state x="734" y="398" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.2560.1400@0.40.2560.1400" timestamp="1579568892935" />
-    <state x="579" y="186" key="#com.intellij.ide.util.MemberChooser" timestamp="1580544284728">
+    <state x="579" y="155" key="#com.intellij.ide.util.MemberChooser" timestamp="1581404730942">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="579" y="186" key="#com.intellij.ide.util.MemberChooser/0.40.1366.728@0.40.1366.728" timestamp="1580544284728" />
+    <state x="579" y="155" key="#com.intellij.ide.util.MemberChooser/0.40.1366.728@0.40.1366.728" timestamp="1581404730942" />
     <state x="1085" y="449" key="#com.intellij.ide.util.MemberChooser/0.40.2560.1400@0.40.2560.1400" timestamp="1579576019474" />
+    <state x="247" y="332" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1581386030162">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="247" y="332" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.40.1366.728@0.40.1366.728" timestamp="1581386030162" />
+    <state x="467" y="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1581386032461">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="467" y="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.40.1366.728@0.40.1366.728" timestamp="1581386032461" />
     <state x="1030" y="307" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1579586744437">
       <screen x="0" y="40" width="2560" height="1400" />
     </state>
     <state x="1030" y="307" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.40.2560.1400@0.40.2560.1400" timestamp="1579586744437" />
-    <state width="1323" height="171" key="GridCell.Tab.0.bottom" timestamp="1580978982244">
+    <state width="1323" height="168" key="GridCell.Tab.0.bottom" timestamp="1582254537274">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="171" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1580978982244" />
+    <state width="1323" height="171" key="GridCell.Tab.0.bottom/0.0.1286.768@0.0.1286.768" timestamp="1580995645322" />
+    <state width="1323" height="168" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1582254537274" />
     <state width="2517" height="393" key="GridCell.Tab.0.bottom/0.40.2560.1400@0.40.2560.1400" timestamp="1579591146974" />
-    <state width="1323" height="171" key="GridCell.Tab.0.center" timestamp="1580978982244">
+    <state width="1323" height="168" key="GridCell.Tab.0.center" timestamp="1582254537274">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="171" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1580978982244" />
+    <state width="1323" height="171" key="GridCell.Tab.0.center/0.0.1286.768@0.0.1286.768" timestamp="1580995645321" />
+    <state width="1323" height="168" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1582254537274" />
     <state width="2517" height="393" key="GridCell.Tab.0.center/0.40.2560.1400@0.40.2560.1400" timestamp="1579591146974" />
-    <state width="1323" height="171" key="GridCell.Tab.0.left" timestamp="1580978982244">
+    <state width="1323" height="168" key="GridCell.Tab.0.left" timestamp="1582254537274">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="171" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1580978982244" />
+    <state width="1323" height="171" key="GridCell.Tab.0.left/0.0.1286.768@0.0.1286.768" timestamp="1580995645321" />
+    <state width="1323" height="168" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1582254537274" />
     <state width="2517" height="393" key="GridCell.Tab.0.left/0.40.2560.1400@0.40.2560.1400" timestamp="1579591146974" />
-    <state width="1323" height="171" key="GridCell.Tab.0.right" timestamp="1580978982244">
+    <state width="1323" height="168" key="GridCell.Tab.0.right" timestamp="1582254537274">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="171" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1580978982244" />
+    <state width="1323" height="171" key="GridCell.Tab.0.right/0.0.1286.768@0.0.1286.768" timestamp="1580995645321" />
+    <state width="1323" height="168" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1582254537274" />
     <state width="2517" height="393" key="GridCell.Tab.0.right/0.40.2560.1400@0.40.2560.1400" timestamp="1579591146974" />
-    <state x="372" y="59" key="SettingsEditor" timestamp="1580904077272">
+    <state x="326" y="40" key="SettingsEditor" timestamp="1582254295791">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="372" y="59" key="SettingsEditor/0.40.1366.728@0.40.1366.728" timestamp="1580904077272" />
+    <state x="326" y="40" key="SettingsEditor/0.40.1366.728@0.40.1366.728" timestamp="1582254295791" />
     <state x="760" y="318" key="SettingsEditor/0.40.2560.1400@0.40.2560.1400" timestamp="1579507794371" />
     <state x="92" y="132" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1580903821171">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="92" y="132" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.40.1366.728@0.40.1366.728" timestamp="1580903821171" />
-    <state x="519" y="315" key="com.intellij.ide.util.TipDialog" timestamp="1580865400617">
+    <state x="519" y="315" key="com.intellij.ide.util.TipDialog" timestamp="1582201662742">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="519" y="315" key="com.intellij.ide.util.TipDialog/0.40.1366.728@0.40.1366.728" timestamp="1580865400617" />
+    <state x="519" y="315" key="com.intellij.ide.util.TipDialog/0.40.1366.728@0.40.1366.728" timestamp="1582201662742" />
     <state x="972" y="568" key="com.intellij.ide.util.TipDialog/0.40.2560.1400@0.40.2560.1400" timestamp="1579594247355" />
     <state x="1080" y="433" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579499746027">
       <screen x="0" y="40" width="2560" height="1400" />
     </state>
     <state x="1080" y="433" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.40.2560.1400@0.40.2560.1400" timestamp="1579499746027" />
-    <state x="298" y="217" width="682" height="483" key="new project wizard" timestamp="1580882269267">
+    <state x="298" y="217" width="682" height="483" key="new project wizard" timestamp="1581401610106">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="298" y="217" width="682" height="483" key="new project wizard/0.40.1366.728@0.40.1366.728" timestamp="1580882269267" />
+    <state x="298" y="217" width="682" height="483" key="new project wizard/0.40.1366.728@0.40.1366.728" timestamp="1581401610106" />
     <state x="697" y="718" key="new project wizard/0.40.2560.1400@0.40.2560.1400" timestamp="1579583395732" />
     <state x="503" y="204" width="672" height="678" key="search.everywhere.popup" timestamp="1580976719976">
       <screen x="0" y="40" width="1366" height="728" />
