@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: spring-admin
+  security:
+    user:
+      name: "admin"
+      password: "admin"
+server:
+  port: 8769
+eureka:
+  client:
+    service-url:
+      defaultZone: http://chenchao:chenchao@localhost:8001/eureka/
+  instance:
+    metadata-map:
+      user.name: ${spring.security.user.admin}
+      user.password: ${spring.security.user.password}
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: ALWAYS

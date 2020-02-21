@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: config-client
+  rabbitmq:
+    host: 132.232.69.223
+    username: guest
+    password: guest
+    port: 5672
+  cloud:
+    config:
+      #uri: http://localhost:9102
+      name: config-demo
+      label: master
+      profile: dev
+      discovery:
+        enabled: true
+        service-id: spring-config
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
+eureka:
+  client:
+    service-url:
+      defaultZone: http://chenchao:chenchao@localhost:8001/eureka/

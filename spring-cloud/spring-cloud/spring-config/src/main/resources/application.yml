@@ -1,0 +1,29 @@
+server:
+  port: 9102
+spring:
+  application:
+    name: spring-config
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: https://github.com/pmath7/spring-cloud
+          search-paths: config-server/config
+          username:
+          password:
+  rabbitmq:
+    host: 132.232.69.223
+    username: guest
+    password: guest
+    port: 5672
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
+eureka:
+  client:
+    service-url:
+      defaultZone: http://chenchao:chenchao@localhost:8001/eureka/
+
