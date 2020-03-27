@@ -1,0 +1,9 @@
+server:
+  port: 9003
+spring:
+  application:
+    name: spring-ribbon
+eureka:
+  client:
+    service-url:
+      defaultZone: http://chenchao:chenchao@localhost:8001/eureka/

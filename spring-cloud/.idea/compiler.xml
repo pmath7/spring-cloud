@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-config" />
+        <module name="spring-jwt" />
+        <module name="service-hello" />
+        <module name="spring-hystrix" />
+        <module name="spring-zuul" />
+        <module name="spring-eureka" />
+        <module name="service-feign" />
+        <module name="service-ribbon" />
+        <module name="config-client" />
+        <module name="spring-admin" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="fastjson" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="config-client" options="-parameters" />
+      <module name="fastjson" options="-parameters" />
+      <module name="service-feign" options="-parameters" />
+      <module name="service-hello" options="-parameters" />
+      <module name="service-ribbon" options="-parameters" />
+      <module name="spring-admin" options="-parameters" />
+      <module name="spring-config" options="-parameters" />
+      <module name="spring-eureka" options="-parameters" />
+      <module name="spring-hystrix" options="-parameters" />
+      <module name="spring-jwt" options="-parameters" />
+      <module name="spring-zuul" options="-parameters" />
+    </option>
+  </component>
+</project>

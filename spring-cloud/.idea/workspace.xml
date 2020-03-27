@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6af0fafb-4915-46c5-9add-3ed8860d6c3e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="aliyun-mysql" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="aliyun-mysql" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="aliyun-mysql" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="test: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="aliyun-mysql" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="test: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="user: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="spring-cloud" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Program Files/apache-maven-3.2.5" />
+        <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.2.5\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WeAQqVpuiyIPzqIKcVGPfHJFUq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/spring-jwt/src/main/java/com/pmath/spring/cloud/jwt" />
+    <property name="last_opened_file_path" value="D:/CT/Core/modules" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.36091954" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.pmath.spring.cloud.zuul" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.pmath.spring.cloud.jwt.annotation" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaSpace\spring-cloud\spring-jwt\src\main\resources" />
+      <recent name="E:\IdeaSpace\spring-cloud\spring-jwt\src\main\resources\com.pmath.spring.cloud.jwt.mapper" />
+      <recent name="E:\IdeaSpace\spring-cloud\spring-jwt\src\main\java\com\pmath\spring\cloud\jwt\mapper" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SpringJwtApplication">
+    <configuration name="FastjsonApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pmath.spring.cloud.FastjsonApplication" />
+      <module name="fastjson" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringEurekaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pmath.spring.cloud.eureka.SpringEurekaApplication" />
+      <module name="spring-eureka" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringJwtApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pmath.spring.cloud.jwt.SpringJwtApplication" />
+      <module name="spring-jwt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringZuulApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pmath.spring.cloud.zuul.SpringZuulApplication" />
+      <module name="spring-zuul" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.SpringEurekaApplication" />
+      <item itemvalue="Application.SpringZuulApplication" />
+      <item itemvalue="Application.SpringJwtApplication" />
+      <item itemvalue="Application.FastjsonApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SpringJwtApplication" />
+        <item itemvalue="Application.FastjsonApplication" />
+        <item itemvalue="Application.SpringEurekaApplication" />
+        <item itemvalue="Application.SpringZuulApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="66" key="#Inspections" timestamp="1580904142803">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="275" y="66" key="#Inspections/0.40.1366.728@0.40.1366.728" timestamp="1580904142803" />
+    <state x="275" y="66" key="#Project_Structure" timestamp="1583504350849">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="275" y="66" key="#Project_Structure/0.40.1366.728@0.40.1366.728" timestamp="1583504350849" />
+    <state x="240" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585295736028">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="240" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1366.728@0.40.1366.728" timestamp="1585295736028" />
+    <state x="734" y="398" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.2560.1400@0.40.2560.1400" timestamp="1579568892935" />
+    <state x="579" y="155" key="#com.intellij.ide.util.MemberChooser" timestamp="1585292107517">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="579" y="155" key="#com.intellij.ide.util.MemberChooser/0.40.1366.728@0.40.1366.728" timestamp="1585292107517" />
+    <state x="1085" y="449" key="#com.intellij.ide.util.MemberChooser/0.40.2560.1400@0.40.2560.1400" timestamp="1579576019474" />
+    <state x="247" y="332" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1581386030162">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="247" y="332" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.40.1366.728@0.40.1366.728" timestamp="1581386030162" />
+    <state x="467" y="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1581386032461">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="467" y="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.40.1366.728@0.40.1366.728" timestamp="1581386032461" />
+    <state x="1030" y="307" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1579586744437">
+      <screen x="0" y="40" width="2560" height="1400" />
+    </state>
+    <state x="1030" y="307" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.40.2560.1400@0.40.2560.1400" timestamp="1579586744437" />
+    <state x="413" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585295310049">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="413" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.40.1366.728@0.40.1366.728" timestamp="1585295310049" />
+    <state width="445" height="466" key="DebuggerActiveHint" timestamp="1583992319291">
+      <screen x="0" y="40" width="2560" height="1400" />
+    </state>
+    <state width="445" height="466" key="DebuggerActiveHint/0.40.2560.1400@0.40.2560.1400" timestamp="1583992319291" />
+    <state x="463" y="162" key="FileChooserDialogImpl" timestamp="1583845124306">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="463" y="162" key="FileChooserDialogImpl/0.40.1366.728@0.40.1366.728" timestamp="1583845124306" />
+    <state width="1323" height="167" key="GridCell.Tab.0.bottom" timestamp="1585296942403">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state width="1323" height="171" key="GridCell.Tab.0.bottom/0.0.1286.768@0.0.1286.768" timestamp="1580995645322" />
+    <state width="1323" height="167" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1585296942403" />
+    <state width="1306" height="209" key="GridCell.Tab.0.bottom/0.40.2560.1400@0.40.2560.1400" timestamp="1584360340445" />
+    <state width="1323" height="167" key="GridCell.Tab.0.center" timestamp="1585296942403">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state width="1323" height="171" key="GridCell.Tab.0.center/0.0.1286.768@0.0.1286.768" timestamp="1580995645321" />
+    <state width="1323" height="167" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1585296942403" />
+    <state width="1306" height="209" key="GridCell.Tab.0.center/0.40.2560.1400@0.40.2560.1400" timestamp="1584360340445" />
+    <state width="1323" height="167" key="GridCell.Tab.0.left" timestamp="1585296942403">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state width="1323" height="171" key="GridCell.Tab.0.left/0.0.1286.768@0.0.1286.768" timestamp="1580995645321" />
+    <state width="1323" height="167" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1585296942403" />
+    <state width="1306" height="209" key="GridCell.Tab.0.left/0.40.2560.1400@0.40.2560.1400" timestamp="1584360340445" />
+    <state width="1323" height="167" key="GridCell.Tab.0.right" timestamp="1585296942403">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state width="1323" height="171" key="GridCell.Tab.0.right/0.0.1286.768@0.0.1286.768" timestamp="1580995645321" />
+    <state width="1323" height="167" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1585296942403" />
+    <state width="1306" height="209" key="GridCell.Tab.0.right/0.40.2560.1400@0.40.2560.1400" timestamp="1584360340445" />
+    <state width="1306" height="209" key="GridCell.Tab.1.bottom" timestamp="1584360340445">
+      <screen x="0" y="40" width="2560" height="1400" />
+    </state>
+    <state width="1323" height="213" key="GridCell.Tab.1.bottom/0.40.1366.728@0.40.1366.728" timestamp="1583557904111" />
+    <state width="1306" height="209" key="GridCell.Tab.1.bottom/0.40.2560.1400@0.40.2560.1400" timestamp="1584360340445" />
+    <state width="1306" height="209" key="GridCell.Tab.1.center" timestamp="1584360340445">
+      <screen x="0" y="40" width="2560" height="1400" />
+    </state>
+    <state width="1323" height="213" key="GridCell.Tab.1.center/0.40.1366.728@0.40.1366.728" timestamp="1583557904111" />
+    <state width="1306" height="209" key="GridCell.Tab.1.center/0.40.2560.1400@0.40.2560.1400" timestamp="1584360340445" />
+    <state width="1306" height="209" key="GridCell.Tab.1.left" timestamp="1584360340445">
+      <screen x="0" y="40" width="2560" height="1400" />
+    </state>
+    <state width="1323" height="213" key="GridCell.Tab.1.left/0.40.1366.728@0.40.1366.728" timestamp="1583557904111" />
+    <state width="1306" height="209" key="GridCell.Tab.1.left/0.40.2560.1400@0.40.2560.1400" timestamp="1584360340445" />
+    <state width="1306" height="209" key="GridCell.Tab.1.right" timestamp="1584360340445">
+      <screen x="0" y="40" width="2560" height="1400" />
+    </state>
+    <state width="1323" height="213" key="GridCell.Tab.1.right/0.40.1366.728@0.40.1366.728" timestamp="1583557904111" />
+    <state width="1306" height="209" key="GridCell.Tab.1.right/0.40.2560.1400@0.40.2560.1400" timestamp="1584360340445" />
+    <state x="213" y="62" key="Maven.ArtifactSearchDialog" timestamp="1582817200510">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="213" y="62" key="Maven.ArtifactSearchDialog/0.40.1366.728@0.40.1366.728" timestamp="1582817200510" />
+    <state x="323" y="108" key="NewModule_or_Project.wizard" timestamp="1583685047775">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="323" y="108" key="NewModule_or_Project.wizard/0.40.1366.728@0.40.1366.728" timestamp="1583685047775" />
+    <state x="760" y="318" key="SettingsEditor" timestamp="1583916603272">
+      <screen x="0" y="40" width="2560" height="1400" />
+    </state>
+    <state x="111" y="40" key="SettingsEditor/0.40.1366.728@0.40.1366.728" timestamp="1583660028070" />
+    <state x="760" y="318" key="SettingsEditor/0.40.2560.1400@0.40.2560.1400" timestamp="1583916603272" />
+    <state x="482" y="185" key="chooseDestDirectoryDialog" timestamp="1582882812052">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="482" y="185" key="chooseDestDirectoryDialog/0.40.1366.728@0.40.1366.728" timestamp="1582882812052" />
+    <state x="555" y="157" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1583332233911">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="555" y="157" key="com.intellij.database.view.ui.DbObjectDialog/0.40.1366.728@0.40.1366.728" timestamp="1583332233911" />
+    <state x="92" y="132" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1580903821171">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="92" y="132" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.40.1366.728@0.40.1366.728" timestamp="1580903821171" />
+    <state x="519" y="315" key="com.intellij.ide.util.TipDialog" timestamp="1585279411300">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="519" y="315" key="com.intellij.ide.util.TipDialog/0.40.1366.728@0.40.1366.728" timestamp="1585279411300" />
+    <state x="972" y="568" key="com.intellij.ide.util.TipDialog/0.40.2560.1400@0.40.2560.1400" timestamp="1584669581575" />
+    <state x="1080" y="433" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579499746027">
+      <screen x="0" y="40" width="2560" height="1400" />
+    </state>
+    <state x="1080" y="433" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.40.2560.1400@0.40.2560.1400" timestamp="1579499746027" />
+    <state x="237" y="143" width="892" height="566" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1583417081099">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="237" y="143" width="892" height="566" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.40.1366.728@0.40.1366.728" timestamp="1583417081099" />
+    <state x="697" y="718" width="682" height="525" key="new project wizard" timestamp="1583916505339">
+      <screen x="0" y="40" width="2560" height="1400" />
+    </state>
+    <state x="436" y="150" width="682" height="525" key="new project wizard/0.40.1366.728@0.40.1366.728" timestamp="1583507630144" />
+    <state x="697" y="718" key="new project wizard/0.40.2560.1400@0.40.2560.1400" timestamp="1583916505339" />
+    <state x="503" y="204" width="672" height="678" key="search.everywhere.popup" timestamp="1582814659423">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="503" y="204" width="672" height="678" key="search.everywhere.popup/0.40.1366.728@0.40.1366.728" timestamp="1582814659423" />
+    <state x="943" y="355" key="search.everywhere.popup/0.40.2560.1400@0.40.2560.1400" timestamp="1579501280324" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-jwt/src/main/java/com/pmath/spring/cloud/jwt/api/UserApi.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/fastjson/src/main/java/com/pmath/spring/cloud/api/UserApi.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
