@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://xxxx:3306/test?useSSL=false
+    username: xxxx
+    password: xxxx
+  redis:
+    database: 0
+    host: pmath.com.cn
+    port: 8002
+    password: xxxx
+    timeout: 1000
+mybatis:
+  configuration:
+    cache-enabled: true
+  mapper-locations: classpath:mapping/*Mapper.xml
+  type-aliases-package: com.pmath.spring.cloud.jwt.dto
+debug: true
+server:
+  port: 8002
+eureka:
+  client:
+    service-url:
+      defaultZone: http://chenchao:chenchao@localhost:8001/eureka/

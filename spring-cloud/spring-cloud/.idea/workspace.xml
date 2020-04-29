@@ -18,7 +18,30 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="aliyun-mysql" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="aliyun-mysql" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="aliyun-mysql" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="test: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="aliyun-mysql" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="test: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="user: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FavoritesManager">
@@ -27,18 +50,34 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/Program Files/apache-maven-3.2.5" />
-        <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.2.5\conf\settings.xml" />
+        <option name="localRepository" value="D:\app\maven\repository" />
+        <option name="mavenHome" value="D:/app/maven" />
+        <option name="userSettingsFile" value="D:\app\maven\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-Dmaven.multiModuleProjectDirectory=$M2_HOME" />
   </component>
   <component name="ProjectId" id="1WeAQqVpuiyIPzqIKcVGPfHJFUq" />
   <component name="ProjectViewState">
@@ -47,11 +86,20 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/spring-jwt/src/main/java/com/pmath/spring/cloud/jwt" />
+    <property name="last_opened_file_path" value="D:/CT/Core/modules" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="project.structure.side.proportion" value="0.36091954" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -60,29 +108,20 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.pmath.spring.cloud.jwt.annotation" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaSpace\spring-cloud\spring-jwt\src\main\resources" />
+      <recent name="E:\IdeaSpace\spring-cloud\spring-jwt\src\main\resources\com.pmath.spring.cloud.jwt.mapper" />
+      <recent name="E:\IdeaSpace\spring-cloud\spring-jwt\src\main\java\com\pmath\spring\cloud\jwt\mapper" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.ConfigClientApplication">
-    <configuration name="ConfigClientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pmath.spring.cloud.config.ConfigClientApplication" />
-      <module name="config-client" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ServiceFeignApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pmath.spring.cloud.feign.ServiceFeignApplication" />
-      <module name="service-feign" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringConfigApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pmath.spring.cloud.config.SpringConfigApplication" />
-      <module name="spring-config" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringJwtApplication">
     <configuration name="SpringEurekaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pmath.spring.cloud.eureka.SpringEurekaApplication" />
       <module name="spring-eureka" />
@@ -90,27 +129,110 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringHelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pmath.spring.cloud.hello.SpringHelloApplication" />
+    <configuration name="SpringJwtApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pmath.spring.cloud.jwt.SpringJwtApplication" />
+      <module name="spring-jwt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringZuulApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pmath.spring.cloud.zuul.SpringZuulApplication" />
+      <module name="spring-zuul" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pmath.spring.cloud.config.ConfigClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-feign" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pmath.spring.cloud.feign.ServiceFeignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pmath.spring.cloud.admin.SpringAdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pmath.spring.cloud.config.SpringConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pmath.spring.cloud.eureka.SpringEurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringHelloApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="service-hello" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pmath.spring.cloud.hello.SpringHelloApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringHystrixApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-hystrix" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pmath.spring.cloud.hystrix.SpringHystrixApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringJwtApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-jwt" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pmath.spring.cloud.jwt.SpringJwtApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringRibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-ribbon" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pmath.spring.cloud.ribbon.SpringRibbonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pmath.spring.cloud.zuul.SpringZuulApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SpringConfigApplication" />
-      <item itemvalue="Application.ConfigClientApplication" />
       <item itemvalue="Application.SpringEurekaApplication" />
-      <item itemvalue="Application.SpringHelloApplication" />
-      <item itemvalue="Application.ServiceFeignApplication" />
+      <item itemvalue="Application.SpringZuulApplication" />
+      <item itemvalue="Application.SpringJwtApplication" />
+      <item itemvalue="Spring Boot.ServiceFeignApplication" />
+      <item itemvalue="Spring Boot.SpringEurekaApplication" />
+      <item itemvalue="Spring Boot.SpringJwtApplication" />
+      <item itemvalue="Spring Boot.SpringConfigApplication" />
+      <item itemvalue="Spring Boot.SpringRibbonApplication" />
+      <item itemvalue="Spring Boot.SpringHystrixApplication" />
+      <item itemvalue="Spring Boot.SpringZuulApplication" />
+      <item itemvalue="Spring Boot.ConfigClientApplication" />
+      <item itemvalue="Spring Boot.SpringAdminApplication" />
+      <item itemvalue="Spring Boot.SpringHelloApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConfigClientApplication" />
-        <item itemvalue="Application.SpringConfigApplication" />
+        <item itemvalue="Application.SpringJwtApplication" />
         <item itemvalue="Application.SpringEurekaApplication" />
-        <item itemvalue="Application.ServiceFeignApplication" />
-        <item itemvalue="Application.SpringHelloApplication" />
+        <item itemvalue="Application.SpringZuulApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -119,7 +241,17 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -129,6 +261,18 @@
   <component name="SvnConfiguration">
     <configuration />
   </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6af0fafb-4915-46c5-9add-3ed8860d6c3e" name="Default Changelist" comment="" />
+      <created>1588060890966</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588060890966</updated>
+      <workItem from="1588060894171" duration="1830000" />
+      <workItem from="1588062808847" duration="10441000" />
+    </task>
+    <servers />
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -137,16 +281,29 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="275" y="66" key="#Inspections/0.40.1366.728@0.40.1366.728" timestamp="1580904142803" />
-    <state x="274" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580989473940">
-      <screen x="0" y="40" width="1366" height="728" />
+    <state x="872" y="400" key="#Notifications" timestamp="1587898736869">
+      <screen x="0" y="40" width="2560" height="1400" />
     </state>
-    <state x="274" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1366.728@0.40.1366.728" timestamp="1580989473940" />
-    <state x="734" y="398" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.2560.1400@0.40.2560.1400" timestamp="1579568892935" />
-    <state x="579" y="155" key="#com.intellij.ide.util.MemberChooser" timestamp="1581404730942">
-      <screen x="0" y="40" width="1366" height="728" />
+    <state x="872" y="400" key="#Notifications/0.40.2560.1400@0.40.2560.1400" timestamp="1587898736869" />
+    <state x="515" y="90" key="#Project_Structure" timestamp="1587015518790">
+      <screen x="0" y="40" width="2560" height="1400" />
     </state>
-    <state x="579" y="155" key="#com.intellij.ide.util.MemberChooser/0.40.1366.728@0.40.1366.728" timestamp="1581404730942" />
-    <state x="1085" y="449" key="#com.intellij.ide.util.MemberChooser/0.40.2560.1400@0.40.2560.1400" timestamp="1579576019474" />
+    <state x="275" y="66" key="#Project_Structure/0.40.1366.728@0.40.1366.728" timestamp="1583504350849" />
+    <state x="515" y="90" key="#Project_Structure/0.40.2560.1400@0.40.2560.1400" timestamp="1587015518790" />
+    <state x="734" y="398" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588061185782">
+      <screen x="0" y="40" width="2560" height="1400" />
+    </state>
+    <state x="240" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1366.728@0.40.1366.728" timestamp="1585295736028" />
+    <state x="734" y="398" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.2560.1400@0.40.2560.1400" timestamp="1588061185782" />
+    <state x="1085" y="449" key="#com.intellij.ide.util.MemberChooser" timestamp="1587950299680">
+      <screen x="0" y="40" width="2560" height="1400" />
+    </state>
+    <state x="579" y="155" key="#com.intellij.ide.util.MemberChooser/0.40.1366.728@0.40.1366.728" timestamp="1585292107517" />
+    <state x="1085" y="449" key="#com.intellij.ide.util.MemberChooser/0.40.2560.1400@0.40.2560.1400" timestamp="1587950299680" />
+    <state x="1131" y="630" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1587447339892">
+      <screen x="0" y="40" width="2560" height="1400" />
+    </state>
+    <state x="1131" y="630" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.40.2560.1400@0.40.2560.1400" timestamp="1587447339892" />
     <state x="247" y="332" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1581386030162">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
@@ -159,57 +316,168 @@
       <screen x="0" y="40" width="2560" height="1400" />
     </state>
     <state x="1030" y="307" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.40.2560.1400@0.40.2560.1400" timestamp="1579586744437" />
-    <state width="1323" height="168" key="GridCell.Tab.0.bottom" timestamp="1582254537274">
+    <state x="413" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585295310049">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="413" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.40.1366.728@0.40.1366.728" timestamp="1585295310049" />
+    <state width="445" height="466" key="DebuggerActiveHint" timestamp="1583992319291">
+      <screen x="0" y="40" width="2560" height="1400" />
+    </state>
+    <state width="445" height="466" key="DebuggerActiveHint/0.40.2560.1400@0.40.2560.1400" timestamp="1583992319291" />
+    <state x="868" y="275" key="FileChooserDialogImpl" timestamp="1587980026602">
+      <screen x="0" y="40" width="2560" height="1400" />
+    </state>
+    <state x="463" y="162" key="FileChooserDialogImpl/0.40.1366.728@0.40.1366.728" timestamp="1585876218505" />
+    <state x="868" y="275" key="FileChooserDialogImpl/0.40.2560.1400@0.40.2560.1400" timestamp="1587980026602" />
+    <state width="905" height="286" key="GridCell.Tab.0.bottom" timestamp="1588141100362">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state width="1323" height="171" key="GridCell.Tab.0.bottom/0.0.1286.768@0.0.1286.768" timestamp="1580995645322" />
-    <state width="1323" height="168" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1582254537274" />
-    <state width="2517" height="393" key="GridCell.Tab.0.bottom/0.40.2560.1400@0.40.2560.1400" timestamp="1579591146974" />
-    <state width="1323" height="168" key="GridCell.Tab.0.center" timestamp="1582254537274">
+    <state width="905" height="286" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1588141100362" />
+    <state width="1741" height="519" key="GridCell.Tab.0.bottom/0.40.2560.1400@0.40.2560.1400" timestamp="1588068668000" />
+    <state width="905" height="286" key="GridCell.Tab.0.center" timestamp="1588141100362">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state width="1323" height="171" key="GridCell.Tab.0.center/0.0.1286.768@0.0.1286.768" timestamp="1580995645321" />
-    <state width="1323" height="168" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1582254537274" />
-    <state width="2517" height="393" key="GridCell.Tab.0.center/0.40.2560.1400@0.40.2560.1400" timestamp="1579591146974" />
-    <state width="1323" height="168" key="GridCell.Tab.0.left" timestamp="1582254537274">
+    <state width="905" height="286" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1588141100362" />
+    <state width="1741" height="519" key="GridCell.Tab.0.center/0.40.2560.1400@0.40.2560.1400" timestamp="1588068668000" />
+    <state width="905" height="286" key="GridCell.Tab.0.left" timestamp="1588141100358">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state width="1323" height="171" key="GridCell.Tab.0.left/0.0.1286.768@0.0.1286.768" timestamp="1580995645321" />
-    <state width="1323" height="168" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1582254537274" />
-    <state width="2517" height="393" key="GridCell.Tab.0.left/0.40.2560.1400@0.40.2560.1400" timestamp="1579591146974" />
-    <state width="1323" height="168" key="GridCell.Tab.0.right" timestamp="1582254537274">
+    <state width="905" height="286" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1588141100358" />
+    <state width="1741" height="519" key="GridCell.Tab.0.left/0.40.2560.1400@0.40.2560.1400" timestamp="1588068667999" />
+    <state width="905" height="286" key="GridCell.Tab.0.right" timestamp="1588141100362">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state width="1323" height="171" key="GridCell.Tab.0.right/0.0.1286.768@0.0.1286.768" timestamp="1580995645321" />
-    <state width="1323" height="168" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1582254537274" />
-    <state width="2517" height="393" key="GridCell.Tab.0.right/0.40.2560.1400@0.40.2560.1400" timestamp="1579591146974" />
-    <state x="326" y="40" key="SettingsEditor" timestamp="1582254295791">
+    <state width="905" height="286" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1588141100362" />
+    <state width="1741" height="519" key="GridCell.Tab.0.right/0.40.2560.1400@0.40.2560.1400" timestamp="1588068668000" />
+    <state width="905" height="286" key="GridCell.Tab.1.bottom" timestamp="1588141087327">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="326" y="40" key="SettingsEditor/0.40.1366.728@0.40.1366.728" timestamp="1582254295791" />
-    <state x="760" y="318" key="SettingsEditor/0.40.2560.1400@0.40.2560.1400" timestamp="1579507794371" />
-    <state x="92" y="132" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1580903821171">
+    <state width="905" height="286" key="GridCell.Tab.1.bottom/0.40.1366.728@0.40.1366.728" timestamp="1588141087327" />
+    <state width="1741" height="519" key="GridCell.Tab.1.bottom/0.40.2560.1400@0.40.2560.1400" timestamp="1588068668001" />
+    <state width="905" height="286" key="GridCell.Tab.1.center" timestamp="1588141087326">
       <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state width="905" height="286" key="GridCell.Tab.1.center/0.40.1366.728@0.40.1366.728" timestamp="1588141087326" />
+    <state width="1741" height="519" key="GridCell.Tab.1.center/0.40.2560.1400@0.40.2560.1400" timestamp="1588068668001" />
+    <state width="905" height="286" key="GridCell.Tab.1.left" timestamp="1588141087326">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state width="905" height="286" key="GridCell.Tab.1.left/0.40.1366.728@0.40.1366.728" timestamp="1588141087326" />
+    <state width="1741" height="519" key="GridCell.Tab.1.left/0.40.2560.1400@0.40.2560.1400" timestamp="1588068668000" />
+    <state width="905" height="286" key="GridCell.Tab.1.right" timestamp="1588141087327">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state width="905" height="286" key="GridCell.Tab.1.right/0.40.1366.728@0.40.1366.728" timestamp="1588141087327" />
+    <state width="1741" height="519" key="GridCell.Tab.1.right/0.40.2560.1400@0.40.2560.1400" timestamp="1588068668001" />
+    <state width="1741" height="519" key="GridCell.Tab.2.bottom" timestamp="1588141044051">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state width="1741" height="519" key="GridCell.Tab.2.bottom/0.40.1366.728@0.40.1366.728" timestamp="1588141044051" />
+    <state width="1741" height="519" key="GridCell.Tab.2.bottom/0.40.2560.1400@0.40.2560.1400" timestamp="1588068668002" />
+    <state width="1741" height="519" key="GridCell.Tab.2.center" timestamp="1588141044051">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state width="1741" height="519" key="GridCell.Tab.2.center/0.40.1366.728@0.40.1366.728" timestamp="1588141044051" />
+    <state width="1741" height="519" key="GridCell.Tab.2.center/0.40.2560.1400@0.40.2560.1400" timestamp="1588068668001" />
+    <state width="1741" height="519" key="GridCell.Tab.2.left" timestamp="1588141044051">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state width="1741" height="519" key="GridCell.Tab.2.left/0.40.1366.728@0.40.1366.728" timestamp="1588141044051" />
+    <state width="1741" height="519" key="GridCell.Tab.2.left/0.40.2560.1400@0.40.2560.1400" timestamp="1588068668001" />
+    <state width="1741" height="519" key="GridCell.Tab.2.right" timestamp="1588141044051">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state width="1741" height="519" key="GridCell.Tab.2.right/0.40.1366.728@0.40.1366.728" timestamp="1588141044051" />
+    <state width="1741" height="519" key="GridCell.Tab.2.right/0.40.2560.1400@0.40.2560.1400" timestamp="1588068668001" />
+    <state x="399" y="82" key="Maven.ArtifactSearchDialog" timestamp="1587022010999">
+      <screen x="0" y="40" width="2560" height="1400" />
+    </state>
+    <state x="213" y="62" key="Maven.ArtifactSearchDialog/0.40.1366.728@0.40.1366.728" timestamp="1582817200510" />
+    <state x="399" y="82" key="Maven.ArtifactSearchDialog/0.40.2560.1400@0.40.2560.1400" timestamp="1587022010999" />
+    <state x="605" y="171" key="NewModule_or_Project.wizard" timestamp="1587091143163">
+      <screen x="0" y="40" width="2560" height="1400" />
+    </state>
+    <state x="323" y="108" key="NewModule_or_Project.wizard/0.40.1366.728@0.40.1366.728" timestamp="1583685047775" />
+    <state x="605" y="171" key="NewModule_or_Project.wizard/0.40.2560.1400@0.40.2560.1400" timestamp="1587091143163" />
+    <state x="760" y="318" key="SettingsEditor" timestamp="1588062725192">
+      <screen x="0" y="40" width="2560" height="1400" />
+    </state>
+    <state x="111" y="40" key="SettingsEditor/0.40.1366.728@0.40.1366.728" timestamp="1583660028070" />
+    <state x="760" y="318" key="SettingsEditor/0.40.2560.1400@0.40.2560.1400" timestamp="1588062725192" />
+    <state x="1001" y="469" width="549" height="524" key="StructurePopup" timestamp="1588067256571">
+      <screen x="0" y="40" width="2560" height="1400" />
+    </state>
+    <state x="1001" y="469" width="549" height="524" key="StructurePopup/0.40.2560.1400@0.40.2560.1400" timestamp="1588067256571" />
+    <state x="482" y="185" key="chooseDestDirectoryDialog" timestamp="1582882812052">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="482" y="185" key="chooseDestDirectoryDialog/0.40.1366.728@0.40.1366.728" timestamp="1582882812052" />
+    <state x="555" y="157" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1583332233911">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="555" y="157" key="com.intellij.database.view.ui.DbObjectDialog/0.40.1366.728@0.40.1366.728" timestamp="1583332233911" />
+    <state x="172" y="217" width="2216" height="1047" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1587021963733">
+      <screen x="0" y="40" width="2560" height="1400" />
     </state>
     <state x="92" y="132" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.40.1366.728@0.40.1366.728" timestamp="1580903821171" />
-    <state x="519" y="315" key="com.intellij.ide.util.TipDialog" timestamp="1582201662742">
-      <screen x="0" y="40" width="1366" height="728" />
+    <state x="172" y="217" width="2216" height="1047" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.40.2560.1400@0.40.2560.1400" timestamp="1587021963733" />
+    <state x="972" y="568" key="com.intellij.ide.util.TipDialog" timestamp="1588062808871">
+      <screen x="0" y="40" width="2560" height="1400" />
     </state>
-    <state x="519" y="315" key="com.intellij.ide.util.TipDialog/0.40.1366.728@0.40.1366.728" timestamp="1582201662742" />
-    <state x="972" y="568" key="com.intellij.ide.util.TipDialog/0.40.2560.1400@0.40.2560.1400" timestamp="1579594247355" />
+    <state x="519" y="315" key="com.intellij.ide.util.TipDialog/0.40.1366.728@0.40.1366.728" timestamp="1585876110030" />
+    <state x="972" y="568" key="com.intellij.ide.util.TipDialog/0.40.2560.1400@0.40.2560.1400" timestamp="1588062808871" />
     <state x="1080" y="433" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579499746027">
       <screen x="0" y="40" width="2560" height="1400" />
     </state>
     <state x="1080" y="433" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.40.2560.1400@0.40.2560.1400" timestamp="1579499746027" />
-    <state x="298" y="217" width="682" height="483" key="new project wizard" timestamp="1581401610106">
+    <state x="237" y="143" width="892" height="566" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1583417081099">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="298" y="217" width="682" height="483" key="new project wizard/0.40.1366.728@0.40.1366.728" timestamp="1581401610106" />
-    <state x="697" y="718" key="new project wizard/0.40.2560.1400@0.40.2560.1400" timestamp="1579583395732" />
-    <state x="503" y="204" width="672" height="678" key="search.everywhere.popup" timestamp="1580976719976">
+    <state x="237" y="143" width="892" height="566" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.40.1366.728@0.40.1366.728" timestamp="1583417081099" />
+    <state x="436" y="150" width="682" height="525" key="new project wizard" timestamp="1585876226282">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="503" y="204" width="672" height="678" key="search.everywhere.popup/0.40.1366.728@0.40.1366.728" timestamp="1580976719976" />
+    <state x="436" y="150" width="682" height="525" key="new project wizard/0.40.1366.728@0.40.1366.728" timestamp="1585876226282" />
+    <state x="697" y="718" key="new project wizard/0.40.2560.1400@0.40.2560.1400" timestamp="1583916505339" />
+    <state x="503" y="204" width="672" height="678" key="search.everywhere.popup" timestamp="1582814659423">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="503" y="204" width="672" height="678" key="search.everywhere.popup/0.40.1366.728@0.40.1366.728" timestamp="1582814659423" />
     <state x="943" y="355" key="search.everywhere.popup/0.40.2560.1400@0.40.2560.1400" timestamp="1579501280324" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-jwt/src/main/java/com/pmath/spring/cloud/jwt/api/UserApi.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/fastjson/src/main/java/com/pmath/spring/cloud/api/UserApi.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-jwt/src/main/java/com/pmath/spring/cloud/jwt/api/UserApi.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-jwt/src/main/java/com/pmath/spring/cloud/jwt/config/FastJsonRedisSerializer.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-jwt/src/main/java/com/pmath/spring/cloud/jwt/cache/RedisCache.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

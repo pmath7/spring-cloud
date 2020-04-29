@@ -21,6 +21,7 @@
     <module>spring-hystrix</module>
     <module>spring-config</module>
     <module>config-client</module>
+    <module>spring-jwt</module>
   </modules>
   <packaging>pom</packaging>
   <name>spring-cloud</name>
